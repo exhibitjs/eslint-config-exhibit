@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-exhibit",
+  "description": "ESLint rules for Exhibit.js and related modules",
+  "version": "1.0.0",
+  "devDependencies": {
+    "js-yaml": "^3.4.2"
+  },
+  "files": [
+    "index.js",
+    "config.json"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exhibitjs/eslint-config-exhibit.git"
+  },
+  "scripts": {
+    "prepublish": "js-yaml config.yaml > config.json",
+    "test": "node index"
+  }
+}
