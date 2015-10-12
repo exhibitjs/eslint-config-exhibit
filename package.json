@@ -3,7 +3,7 @@
   "description": "ESLint rules for Exhibit.js and related modules",
   "version": "1.0.0",
   "devDependencies": {
-    "js-yaml": "^3.4.2"
+    "js-yaml": "^3.4.3"
   },
   "files": [
     "index.js",
